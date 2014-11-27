@@ -29,7 +29,7 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "filesize-parser": "0.0.2",
+    "filesize-parser": "~1.0.0",
     "node-expat": "2.0.x",
     "q": "^1.1.1"
   }
