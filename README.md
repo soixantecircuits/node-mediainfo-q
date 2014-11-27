@@ -18,11 +18,6 @@ The module exposes just one function, which has a signature of:
 
 `mediainfo("/path/to/file", "/path/to/other/file", [...]).then(...)`
 
-The callback function is called, in familiar node fashion, with two arguments.
-The first is an Error object on error, or null on success. The second argument
-is an array of objects, forming what you'd expect from the output of mediainfo,
-if it were mangled into a JSON object.
-
 It's really easier to just see the output, so here:
 
 ```
@@ -129,3 +124,10 @@ Contact
 * GitHub ([deoxxa](http://github.com/deoxxa))
 * Twitter ([@deoxxa](http://twitter.com/deoxxa))
 * Email ([deoxxa@fknsrs.biz](mailto:deoxxa@fknsrs.biz))
+
+Changes from original
+---------------------
+
+* GitHub ([jamesmorgan](http://github.com/jamesmorgan))
+* Adding `Q` promise library instead of callback
+* Enhancing response error with full standard out.
