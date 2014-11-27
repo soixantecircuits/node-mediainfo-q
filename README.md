@@ -16,7 +16,7 @@ Usage
 
 The module exposes just one function, which has a signature of:
 
-`mediainfo("/path/to/file", "/path/to/other/file", [...], callback)`
+`mediainfo("/path/to/file", "/path/to/other/file", [...]).then(...)`
 
 The callback function is called, in familiar node fashion, with two arguments.
 The first is an Error object on error, or null on success. The second argument
@@ -104,13 +104,12 @@ Example
 ```javascript
 var mediainfo = require("mediainfo");
 
-mediainfo("/path/to/something.mp3", function(err, res) {
-  if (err) {
-    return console.log(err);
-  }
-
-  console.log(res);
-});
+mediainfo("/path/to/file", "/path/to/other/file")
+    .then(function (res) {
+      console.log(res)
+    }).catch(function (err) {
+      console.error(err)
+    });
 ```
 
 Requirements
