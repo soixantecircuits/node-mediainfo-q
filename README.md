@@ -113,6 +113,8 @@ Requirements
 The `mediainfo` command has to be available somewhere in the PATH of the user
 node is running as.
 
+* `brew install mediainfo` - should install the latest on Mac
+
 License
 -------
 
@@ -129,5 +131,8 @@ Changes from original
 ---------------------
 
 * GitHub ([jamesmorgan](http://github.com/jamesmorgan))
-* Adding `Q` promise library instead of callback
+* Adding `Q` promise library instead of callback.
 * Enhancing response error with full standard out.
+* Updated to use with the latest version of `mediainfo`
+* Updated to use latest version of `filesize-parser`
+* Added .gitignore

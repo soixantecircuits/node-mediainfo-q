@@ -1,6 +1,6 @@
 {
   "name": "mediainfo",
-  "description": "Wrapper around the `mediainfo' program for obtaining information about media files",
+  "description": "Wrapper around the `mediainfo' program for obtaining information about media files enhanced with the Q promise library",
   "version": "0.0.2",
   "author": {
     "name": "Conrad Pankoff",
@@ -11,7 +11,10 @@
   "license": "BSD",
   "repository": {
     "type": "git",
-    "url": "git://github.com/deoxxa/node-mediainfo.git"
+    "url": "git://github.com/deoxxa/node-mediainfo.git",
+    "contributors": [
+      "http://github.com/jamesmorgan"
+    ]
   },
   "keywords": [
     "mediainfo",
@@ -22,7 +25,9 @@
     "flac",
     "ogg",
     "mkv",
-    "avi"
+    "avi",
+    "q",
+    "promise"
   ],
   "main": "./lib/mediainfo",
   "engines": {
