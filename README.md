@@ -1,7 +1,7 @@
 Mediainfo
 =========
 
-Wrapper around the `mediainfo` command for obtaining information about media
+Wrapper around the `mediainfo` command for obtaining information about media enhanced with the Q promise library
 files.
 
 Overview
