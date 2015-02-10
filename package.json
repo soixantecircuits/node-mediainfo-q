@@ -1,5 +1,5 @@
 {
-  "name": "mediainfo",
+  "name": "mediainfo-q",
   "description": "Wrapper around the `mediainfo' program for obtaining information about media files enhanced with the Q promise library",
   "version": "0.0.2",
   "author": {
