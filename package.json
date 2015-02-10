@@ -3,15 +3,15 @@
   "description": "Wrapper around the `mediainfo' program for obtaining information about media files enhanced with the Q promise library",
   "version": "0.0.2",
   "author": {
-    "name": "Conrad Pankoff",
-    "email": "deoxxa@fknsrs.biz",
-    "url": "http://www.fknsrs.biz/"
+    "name": "James Morgan",
+    "email": "james.morgan.e@googlemail.com",
+    "url": "http://github.com/jamesmorgan"
   },
-  "url": "http://github.com/deoxxa/node-mediainfo",
+  "url": "http://github.com/jamesmorgan/node-mediainfo-q",
   "license": "BSD",
   "repository": {
     "type": "git",
-    "url": "git://github.com/deoxxa/node-mediainfo.git",
+    "url": "git://github.com/jamesmorgan/node-mediainfo-q.git",
     "contributors": [
       "http://github.com/jamesmorgan"
     ]
