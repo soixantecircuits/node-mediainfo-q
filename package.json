@@ -34,7 +34,7 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "filesize-parser": "~1.1.0",
+    "filesize-parser": "~1.2.0",
     "node-expat": "2.3.x",
     "q": "^1.1.1"
   }
