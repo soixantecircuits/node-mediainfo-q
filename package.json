@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "filesize-parser": "~1.2.0",
-    "node-expat": "2.3.x",
+    "node-expat": "1.6.1",
     "q": "^1.1.1"
   }
 }
